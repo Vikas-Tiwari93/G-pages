@@ -1,7 +1,6 @@
 * {
-  border: 2px solid black;
+  margin: 2px;
   box-sizing: border-box;
-  margin: 0px;
 }
 
 header {
@@ -12,12 +11,34 @@ header {
   right: 0px;
   justify-content: right;
   display: flex;
+  color: rgb(106, 105, 105);
+}
+.headdiv {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+}
+.headdiv1 {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 45px;
+  margin-right: 6px;
+}
+.topicon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 main {
   height: 500px;
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 .container {
   height: 100%;
@@ -28,9 +49,9 @@ main {
 }
 .imgholder {
   width: 60%;
-  height: 27%;
+  height: 24%;
   object-fit: contain;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 20px 10px 20px;
   margin: 10px;
 }
 .mainimg {
@@ -58,6 +79,7 @@ input {
   width: 85%;
   margin: 10px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .shortcontain {
@@ -68,8 +90,8 @@ input {
   flex-direction: column;
 }
 .shortimgcont {
-  height: 60%;
-  width: 60%;
+  height: 50%;
+  width: 50%;
   border-radius: 50%;
   object-fit: contain;
   display: flex;
@@ -87,9 +109,13 @@ input {
   height: 20%;
 }
 footer {
-  height: 50px;
+  height: 30px;
   position: absolute;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px solid rgb(73, 113, 242);
+  padding: 10px;
 }
