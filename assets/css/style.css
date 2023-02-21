@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+}
+
+#cardroot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 98%;
+}
+.card {
+  display: inline-block;
+  width: 260px;
+  height: 160px;
+  position: relative;
+  margin: 2px;
+  padding: 2px;
+}
+.name {
+  position: absolute;
+  bottom: 3%;
+  left: 10%;
+  color: white;
+}
+.image {
+  display: inline-block;
+  background-color: rgb(54, 53, 53);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+footer {
+  display: flex;
+  background-color: rgb(21, 20, 20);
+  color: wheat;
+  height: 36px;
+  margin-top: 15px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+.footerdiv {
+  display: flex;
+  width: 37%;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.footerdivleft {
+  display: flex;
+  width: 37%;
+  padding: 2px;
+  box-sizing: border-box;
+  justify-content: right;
+}
+.footerdiv span {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  padding-right: 0.45rem;
+  padding-left: 0.25rem;
+  font-size: 14px;
+  font-weight: 700;
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+}
+footer div {
+  box-sizing: border-box;
+  padding: 1px;
+  width: 23%;
+}
+.footertext {
+}
+
+.footicon {
+  padding: 4px;
+  width: 2rem;
+  height: 1.8rem;
+  margin-right: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: rgb(34, 34, 34);
+}
+.footicon:hover {
+  background-color: rgb(231, 40, 40);
+}
+
+.footicon2 {
+  padding: 4px;
+  width: 3rem;
+  height: 1.8rem;
+  border-radius: 40px;
+  object-fit: contain;
+  background-color: rgb(34, 34, 34);
+}
+.footicon2:hover {
+  background-color: rgb(231, 40, 40);
+}
+.iconimg {
+  filter: invert(0.8);
+  width: 100%;
+  height: 100%;
+
+  border-radius: 10%;
+}
+.iconimg2 {
+  display: none;
+}

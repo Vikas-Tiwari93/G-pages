@@ -1,0 +1,12 @@
+* {
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+header {
+}
+main {
+  height: 94%;
+}
+footer {
+  height: 3%;
+}
